@@ -18,7 +18,7 @@ A clean, modern landing page created to showcase products with a focus on simpli
 - **Figma Design Mockup**: [Open the mockup](https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6802-139&t=L7eKz5YKLN0m5WxR-0)
 - **Live Preview**: [View the preview](https://galina-palyukh.github.io/nothing-page/)
 
-## Instructions for Launching the Project:
+### Instructions for Launching the Project:
 1. **Clone the repository** into the desired folder:
 `git clone https://github.com/galina-palyukh/nothing-page.git`
 2. **Open the project** in your IDE.
