@@ -6,12 +6,25 @@
   scroll-behavior: smooth;
   overflow-x: hidden;
 
+  &__anchor-target {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+
   &:has(.page__menu:target) {
     overflow: hidden; /* not to scroll the page */
   }
   &__body {
     margin: 0;
     min-width: 320px;
+
+    /* footer sticks to the bottom of the page */
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0, 1fr);
+
   }
 
   &__menu {
